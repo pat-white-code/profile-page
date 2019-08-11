@@ -105,3 +105,26 @@ button {
   letter-spacing: 16px;
   font-style: italic;
 }
+
+#projects {
+  background-color:#08adffC3;
+}
+
+.project-square {
+  margin: 0, auto;
+  height: 300px;
+  width: 30%;
+  background-color: #ff5a08;
+  display: inline-flex;
+  margin: 50px;
+  color: white;
+  padding: 10px;
+};
+
+#css {
+  background-color: #ffd608;
+}
+
+#html {
+  background-color: #ad08ff
+}
