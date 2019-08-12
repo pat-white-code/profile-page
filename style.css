@@ -143,7 +143,7 @@ button {
   background-size: 1600px 1000px;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to right top, #0101c5, #0068ff, #00a0ff, #00d2fb, #08ffe9);
+  background-image: linear-gradient(to right top, #0101c5, #0068ff, #00a0ff, #f1f1f1, #08ffe9);
   
 }
 
@@ -155,4 +155,51 @@ button {
   margin-top: 30px;
   padding-bottom: 20px;
   background-color: white;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  width: 65%;
+  border-width: 2px;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  background-color: rgb(176, 226, 255)
+}
+
+form [name="first-name"]{
+}
+
+form [name="last-name"]{
+}
+
+form [name="message-body"] {
+  height: 150px;
+}
+
+form textarea{
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  width: 65%;
+  background-color: rgb(176, 226, 255);
+  border-style: none;
+}
+
+form [type="submit"] {
+  font-family: Blinker;
+  text-align: center;
+  cursor: pointer;  
+  padding: 10px 0px 10px 0px;
+  border-style: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #0068ff
 }
