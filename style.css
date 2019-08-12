@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(./mixer-up-close.jpg);
@@ -107,19 +108,20 @@ button {
 }
 
 #projects {
-  background-color:#08adffC3;
+  background-color: whitesmoke;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .project-square {
   margin: 0, auto;
-  background-color: #ff5a08;
   display: inline-flex;
   margin: 50px;
   color: white;
-  padding: 100px;
+  padding: 150px;
   font-family: blinker, sans-serif;
   font-size: 2em;
-};
+}
 
 #css {
   background-color: #ffd608;
@@ -129,17 +131,28 @@ button {
   background-color: #ad08ff
 }
 
+#js {
+  background-color: #ff5a08;
+}
+
+#app {
+  background-color:#08adffC3;
+}
+
 #contact {
   background-size: 1600px 1000px;
   width: 100vw;
   height: 100vh;
+  background-image: linear-gradient(to right top, #0101c5, #0068ff, #00a0ff, #00d2fb, #08ffe9);
+  
 }
 
 #contact h1 {
   color: #999999;
   font-size: 4em;
-  border-bottom: 2px solid #999999;
+  border-bottom: 0;
   text-align:center;
   margin-top: 30px;
   padding-bottom: 20px;
+  background-color: white;
 }
